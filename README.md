@@ -52,7 +52,7 @@ It demonstrates the use of OpenAI Gym and provides practical insights into how t
 
 > - [1] [OpenAI - Gym](https://www.gymlibrary.dev). 
 > - [2] Richard S. Sutton and Andrew G. Barto [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf). 
-> - [3] Deep Q-Learning [Deep Q-Learning](https://en.wikipedia.org/wiki/Q-learning). 
+> - [3] [Deep Q-Learning](https://en.wikipedia.org/wiki/Q-learning). 
 
 
                                                     
