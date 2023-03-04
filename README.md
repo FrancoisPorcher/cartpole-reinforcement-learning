@@ -15,15 +15,24 @@ This project is an implementation of Deep Q Learning using OpenAI Gym's CartPole
 
 ## Demonstration
 
+### Random Policy
 
-This is what the trained policy looks like:
+We can see that the pole naturally falls.
 
+https://user-images.githubusercontent.com/93766133/222061538-2120787b-3e8c-4845-b3a0-7de0211064c2.mp4
+
+### Policy with Deep-Q Learning
+
+There is some significant improvement with Deep-Q Learning
 
 https://user-images.githubusercontent.com/93766133/222061524-50424fe1-f01f-4eb0-a3d6-a08188b076cb.mp4
 
-In comparison this is a random policy
+### Hard-Coded Policy
 
-https://user-images.githubusercontent.com/93766133/222061538-2120787b-3e8c-4845-b3a0-7de0211064c2.mp4
+![Alt Text](theta_omega_record.gif)
+
+
+
 
 
 
