@@ -3,7 +3,10 @@
 ## Contents
 - [Description](#description)
 - [Demonstration](#demonstration)
-- [Potential improvements](#potential improvements)
+- [Random Policy](#random-policy)
+- [Policy with Deep-Q Learning](#policy-with-deep-q-learning)
+- [Hard Coded Policy](#hard-coded-policy)
+- [Potential improvements](#potential-improvements)
 - [Usage](#usage)
 - [Conclusion](#conclusion)
 - [References](#references)
