@@ -42,7 +42,7 @@ It turns out we can fix this problem by using a very simple-policy which is simp
 
 
 
-![Alt Text](theta_omega_record.gif)
+![Alt Text](outputs/theta_omega_record.gif)
 
 
 ## Potential improvements
