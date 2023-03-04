@@ -13,7 +13,7 @@
 
 ## Description
 
-This project is an implementation of Deep Q Learning using OpenAI Gym's CartPole environment. The aim of the project is to experiment with Reinforcement Learning techniques and develop a model that can effectively balance the CartPole for as long as possible. The project provides a clear and concise example of how to use the Gym environment and Q-Learning algorithm to solve a simple yet interesting RL problem.
+This project is an implementation of Deep Q Learning using `OpenAI Gym's CartPole environment`. The aim of the project is to experiment with Reinforcement Learning techniques and develop a model that can effectively balance the CartPole for as long as possible. The project provides a clear and concise example of how to use the Gym environment and Q-Learning algorithm to solve a simple yet interesting RL problem.
 
 
 
@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/93766133/222061538-2120787b-3e8c-4845-
 
 ### Policy with Deep-Q Learning
 
-There is some significant improvement with Deep-Q Learning.
+There is some significant improvement with `Deep-Q Learning`.
 However we can see that the policy does not balance the pole fully.
 This is because the policy is "lazy" and can still maintain the pole long enough to win the game.
 
@@ -47,7 +47,7 @@ It turns out we can fix this problem by using a very simple-policy which is simp
 
 ## Potential improvements
 
-We can act on the rewards to improve the behaviour of the cart and improve energy efficiency:
+We can act on the rewards to improve the behaviour of the cart and improve `energy efficiency`:
 
 - In the stock gym environment, the reward is 1 at each time step until the pole falls. We can create a reward that is higher when the pole is closer to the vertical position. $\cos(\theta)$ seems like a good reward function.
 - Ideally we also want the cart to stay still when the pole is next to the equilibrium. We can do that by penalizing the reward each time a left or right action is taken.
