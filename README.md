@@ -3,6 +3,7 @@
 ## Contents
 - [Description](#description)
 - [Demonstration](#demonstration)
+- [Potential improvements](#potential improvements)
 - [Usage](#usage)
 - [Conclusion](#conclusion)
 - [References](#references)
@@ -41,7 +42,7 @@ It turns out we can fix this problem by using a very simple-policy which is simp
 ![Alt Text](theta_omega_record.gif)
 
 
-## Potential improvements:
+## Potential improvements
 
 We can act on the rewards to improve the behaviour of the cart and improve energy efficiency:
 
