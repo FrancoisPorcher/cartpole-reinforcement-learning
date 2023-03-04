@@ -68,9 +68,13 @@ We can act on the rewards to improve the behaviour of the cart and improve `ener
  ```
  - Install dependencies
  ```bash
- run the google collab file
+ pip install requirements.txt
  ```
 
+ - Run
+ ```bash
+ main.ipynb
+ ```
 
 ## Conclusion
 
