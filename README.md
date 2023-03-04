@@ -23,14 +23,30 @@ https://user-images.githubusercontent.com/93766133/222061538-2120787b-3e8c-4845-
 
 ### Policy with Deep-Q Learning
 
-There is some significant improvement with Deep-Q Learning
+There is some significant improvement with Deep-Q Learning.
+However we can see that the policy does not balance the pole fully.
+This is because the policy is "lazy" and can still maintain the pole long enough to win the game.
 
 https://user-images.githubusercontent.com/93766133/222061524-50424fe1-f01f-4eb0-a3d6-a08188b076cb.mp4
 
 ### Hard-Coded Policy
 
+It turns out we can fix this problem by using a very simple-policy which is simple to understand intuitively:
+
+- If $\theta$ is small enough, the pole is next to the equilibrium position. In this case we only look at $\omega$ to move the cart in the direction the pole is falling.
+- Else, the pole is already far from the equilibrium position. We look at $\theta$ to correct the position.
+
+
+
 ![Alt Text](theta_omega_record.gif)
 
+
+## Potential improvements:
+
+We can act on the rewards to improve the behaviour of the cart and improve energy efficiency:
+
+- In the stock gym environment, the reward is 1 at each time step until the pole falls. We can create a reward that is higher when the pole is closer to the vertical position. $\cos(\theta)$ seems like a good reward function.
+- Ideally we also want the cart to stay still when the pole is next to the equilibrium. We can do that by penalizing the reward each time a left or right action is taken.
 
 
 
